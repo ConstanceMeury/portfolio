@@ -1,0 +1,170 @@
+.navbar {
+  background-color:#EEF1F5;
+}
+.navbar-brand {
+  color: #000026;
+}
+.nav-link {
+  color: #000026;
+}
+
+.jumbotron {
+  background-color: #FFFFFF;
+  display: flex;
+  width: 100%;
+}
+h1 {
+  font-weight: 100;
+  font-size: 16pt
+}
+
+.jumbotron .quote {
+  font-size: 2em;
+  font-family: 'Abril Fatface', cursive;
+  padding-top: 50px;
+  color: #000026;
+  line-height: 55px;
+}
+
+.about-me.quote {
+  font-size: 2em;
+  font-family: 'Abril Fatface', cursive;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #000026;
+  line-height: 28px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #000026;
+  line-height: 28px;
+}
+
+.about-me .row {
+margin-top: 50px;
+}
+
+.btn-outline-light {
+  border-color: #EEF1F5;
+  color: #EEF1F5;
+}
+.btn-outline-dark {
+  border-color: #000026;
+  color: #000026;
+}
+
+
+footer {
+      text-align:center;
+      padding-top: 50px;
+      bottom:0;
+      width:100%;
+      font-size:13px;
+}
+
+.social-network ul li {
+  display: inline;
+  list-style: none;
+  padding-right: 20px;
+  font-size: 1.5em;
+}
+
+.navbar-nav {
+  display: flex;
+  width: 100%;
+}
+
+li.social-network {
+  margin-left: auto;
+}
+
+.card {
+  border-width: 0;
+  border-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-img-overlay .card-text {
+  color: #000026;
+  padding-top: 230px;
+  padding-right: 10px;
+}
+
+.fa-linkedin {
+  color: #000026;
+}
+.fa-medium {
+  color: #000026;
+}
+
+.navbar .active > .nav-link {
+  color: #BAC6D5 !important;
+}
+
+.navbar > .nav-link:hover {
+  color: #BAC6D5 !important;
+}
+
+.about-me-text {
+  font-size:20px;
+  padding-bottom: 16px;
+}
+
+.img-fluid {
+   justify-content: flex-end;
+   text-align: center;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   box-sizing: none;
+}
+.first-words {
+  color: #3FD9FE;
+  font-size:22px;
+}
+.small-container {
+  margin-top: 70px;
+}
+.md-container {
+  margin-top: 20px;
+  display: center
+}
+
+h4 {
+  margin-bottom: 20px;
+  color: #BAC6D5;
+}
+article .quote {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-style: italic;
+  font-size: 1.5em;
+  font-family: 'Abril Fatface', cursive;
+}
+figure {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  margin-left: 0;
+  margin-right: 0;
+}
+figcaption {
+  margin-top: 20px;
+}
+.prototype-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+@media only screen and (min-width: 576px) {
+  div.small-container {
+    width: 680px;
+  }
+}
+.text-muted {
+font-size: 0.8em;
+}
+footer {
+  margin-top: 60px;
+}
