@@ -1,3 +1,4 @@
+
 .navbar {
   background-color:#EEF1F5;
 }
@@ -8,6 +9,11 @@
   color: #000026;
 }
 
+> span.navbar-toggler-icon {
+  color: #000026 !important;
+  opacity: 100%;
+}
+
 .jumbotron {
   background-color: #FFFFFF;
   display: flex;
@@ -15,11 +21,12 @@
 }
 h1 {
   font-weight: 100;
-  font-size: 16pt
+  font-size: 18pt
 }
 
 .jumbotron .quote {
   font-size: 2em;
+  letter-spacing:2px;
   font-family: 'Abril Fatface', cursive;
   padding-top: 50px;
   color: #000026;
@@ -28,6 +35,7 @@ h1 {
 
 .about-me.quote {
   font-size: 2em;
+  letter-spacing:2px;
   font-family: 'Abril Fatface', cursive;
   padding-top: 80px;
   padding-bottom: 50px;
@@ -39,6 +47,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #000026;
   line-height: 28px;
+  font-size: 18px
 }
 
 .about-me .row {
@@ -48,10 +57,12 @@ margin-top: 50px;
 .btn-outline-light {
   border-color: #EEF1F5;
   color: #EEF1F5;
+  font-size: 18px;
 }
 .btn-outline-dark {
   border-color: #000026;
   color: #000026;
+  font-size: 18px;
 }
 
 
@@ -63,21 +74,36 @@ footer {
       font-size:13px;
 }
 
+@media only screen and (min-width: 992px) {
+  .social-network ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+    font-size: 1.5em;
+  }
+  li.social-network {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+}
+
 .social-network ul li {
-  display: inline;
   list-style: none;
-  padding-right: 20px;
   font-size: 1.5em;
 }
+
+.social-network ul {
+  padding-left: 0;
+}
+
 
 .navbar-nav {
   display: flex;
   width: 100%;
 }
 
-li.social-network {
-  margin-left: auto;
-}
+
 
 .card {
   border-width: 0;
@@ -108,8 +134,7 @@ li.social-network {
 }
 
 .about-me-text {
-  font-size:20px;
-  padding-bottom: 16px;
+  padding-bottom: 12px;
 }
 
 .img-fluid {
@@ -167,4 +192,13 @@ font-size: 0.8em;
 }
 footer {
   margin-top: 60px;
+}
+
+.container-xl {
+  padding-bottom: 40px;
+}
+
+video {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
