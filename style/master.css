@@ -9,11 +9,6 @@
   color: #000026;
 }
 
-> span.navbar-toggler-icon {
-  color: #000026 !important;
-  opacity: 100%;
-}
-
 .jumbotron {
   background-color: #FFFFFF;
   display: flex;
