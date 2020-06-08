@@ -2,6 +2,7 @@
 .navbar {
   background-color:#EEF1F5;
   color: #000026;
+  padding-bottom: 0;
 }
 .navbar-brand {
   color: #000026;
@@ -123,15 +124,6 @@ footer {
   width: 100%;
 }
 
-
-
-.container-xl .card {
-  border-width: 0;
-  border-style: none;
-  margin-top: 10px;
-  margin-bottom: 40px;
-}
-
 .card-img-overlay .card-text {
   color: #000026;
   padding-top: 230px;
@@ -181,13 +173,7 @@ h4 {
   margin-bottom: 20px;
   color: #BAC6D5;
 }
-article .quote {
-  margin-bottom: 50px;
-  margin-top: 50px;
-  font-style: italic;
-  font-size: 1.5em;
-  font-family: 'Abril Fatface', cursive;
-}
+
 figure {
   margin-bottom: 60px;
   margin-top: 60px;
