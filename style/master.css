@@ -20,25 +20,25 @@
   width: 100%;
 }
 h1 {
+  font-size: 16pt;
   font-weight: 100;
-  font-size: 18pt
 }
 
 .jumbotron .quote {
   font-size: 2em;
-  letter-spacing:2px;
-  font-family: 'Abril Fatface', cursive;
-  padding-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 100px;
+  font-weight: 800;
   color: #000026;
   line-height: 55px;
 }
 
 .about-me.quote {
   font-size: 2em;
-  letter-spacing:2px;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Raleway', sans-serif;
   padding-top: 80px;
   padding-bottom: 50px;
+  font-weight: 800;
   color: #000026;
   line-height: 28px;
 }
